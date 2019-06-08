@@ -5,14 +5,14 @@
 }
 
 main{
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .row{
   display: block;
   border-bottom: 3px solid black;
-  height:  calc(100%/3);
+  height: calc(100%/3);
   width: 100%;
   box-sizing: border-box;
 }
@@ -34,20 +34,21 @@ main{
   border-right: none;
 }
 
-.row section .option{
+.row section .opt{
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top:-40px;
   width: 100%;
   display: none;
 }
 
 .row section .circle{
   color: #E36B2C;
+  bottom: 10px;
 }
 
 .row section .cross{
   color: #02AC66;
+  bottom: 10px;
 }

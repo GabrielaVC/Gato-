@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+*{
+    font-family: 'Bungee Inline', cursive;
+}
+main{
+  width: 400px;
+  height: 400px;
+}
+
+.row{
+  display: block;
+  border-bottom: 1px solid black;
+  height:  calc(100%/3);
+  width: 100%;
+  box-sizing: border-box;
+}
+.row:last-child{
+  border-bottom:none;
+}
+.row section{
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+  border-right: 1px solid black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.row section:last-child{
+  border-right: none;
+}
+.row section .option{
+  text-align: center;
+  font-size: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+.row section .circle{
+  color: #E36B2C;
+}
+.row section .cross{
+  color: #02AC66;
+}

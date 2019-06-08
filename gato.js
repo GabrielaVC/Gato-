@@ -1,3 +1,4 @@
+
 let turno = "X";
 let casillas = document.querySelectorAll('.row section');
 casillas.forEach(casilla => {
